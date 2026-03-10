@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pirate-red: #8B0000;
+  --color-pirate-gold: #D4AF37;
+  --color-ocean-blue: #0B3D91;
+  --color-dark-navy: #0A1F44;
+
+  --font-pirate: "Pirata One", "Cinzel", serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #f4e4bc;
+    color: var(--color-dark-navy);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Parchment texture background */
+    background-image: url("https://www.transparenttextures.com/patterns/aged-paper.png");
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4e4bc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B0000;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
