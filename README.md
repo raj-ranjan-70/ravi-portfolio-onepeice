@@ -196,3 +196,63 @@ src/
 
 └── main.jsx        # React entry point
 
+```
+
+
+
+---
+
+
+
+\## 🚀 Hoist the Colors (Getting Started)
+
+
+
+To run this project locally and begin your adventure:
+
+
+
+1\. \*\*Clone the repository:\*\*
+
+```bash
+
+git clone \[https://github.com/ravikantMishra10/portfolio.git](https://github.com/ravikantMishra10/portfolio.git)
+
+```
+
+
+
+2\. \*\*Navigate to the directory:\*\*
+
+```bash
+
+cd portfolio
+
+```
+
+
+
+3\. \*\*Install the dependencies:\*\*
+
+```bash
+
+npm install
+
+```
+
+
+
+4\. \*\*Set sail (Start the development server):\*\*
+
+```bash
+
+npm run dev
+
+```
+
+
+
+---
+
+\*Designed and coded by Ravi Kant Mishra.\*
+
